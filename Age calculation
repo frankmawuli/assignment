@@ -1,0 +1,19 @@
+#include "iostream"
+using namespace std;
+int main(){
+    int Age;
+    int x;
+    cout << "Input age" << endl;
+    cin >> Age ;
+
+    if (Age > 15){
+        x = Age + 1 ;
+        cout << x <<endl;
+    }else{
+        cout << Age << endl;
+    }
+
+
+    return 0;
+
+}
