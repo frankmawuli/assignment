@@ -1,0 +1,11 @@
+#include "iostream"
+using namespace std;
+int main(){
+int name ;
+cout << "Enter Name";
+cin>> name;
+
+cout << "hello" << name <<endl;
+
+    return 0;
+}
