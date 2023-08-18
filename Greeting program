@@ -1,7 +1,7 @@
 #include "iostream"
 using namespace std;
 int main(){
-int name ;
+string name ;
 cout << "Enter Name";
 cin>> name;
 
