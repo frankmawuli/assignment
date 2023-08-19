@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int guess;
+    string x;
+    
+    cout << "Guess a number: ";
+    cin >> guess;
+    
+    if (guess > 0 && guess < 15) {
+        x = "failure";
+    }
+    else if (guess > 15 && guess < 31) {
+        x = "success";
+        cout << "Congratulations! The guessed number was right." << endl;
+    }
+    else {
+        x = "failure";
+    }
+    
+    return 0;
+}
